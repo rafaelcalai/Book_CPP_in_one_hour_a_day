@@ -10,5 +10,5 @@ myNumber[5] = 450;
 ```
 #### Answer:
 ```
-The problems is that it is trying to assign 450 beiong thee boundary of the array.
+The problems is that it is trying to assign 450 beyond the boundary of the array.
 ```
