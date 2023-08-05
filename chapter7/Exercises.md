@@ -30,8 +30,6 @@ int main()
     
     cout << "The area is:" << areaFetched << endl;
     return 0;
-    
-    return 0;
 }
 ```
 
