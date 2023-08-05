@@ -25,9 +25,39 @@ int main()
 ```
 ##
 
-### 3. Write a program similar to Listing 6.16 that displays Fibonnacci numbers but that ask the user how many number she wants to compute
+### 3. Write a program similar to Listing 6.16 that displays Fibonacci numbers but that ask the user how many number she wants to compute
 ##
+```
+#include<iostream>
 
+using namespace std;
+
+int main()
+{
+    const int numToCalculate = 5;
+    cout << "This program will calculate " << numToCalculate << " Fibonacci Numbers at a time" << endl;
+
+    int num1 = 0, num2 = 1;
+    char wantMore = '\0';
+    cout << num1 << " " << num2;
+
+    do
+    {
+        for(int count = 0; count <= numToCalculate; ++count)
+        {
+            cout << num1 + num2 << " ";
+            int num2Temp = num2;
+            num2 += num1;
+            num1 = num2Temp;
+        }
+        cout << "\nDo you want more numbers (y/n)? ";
+        cin >> wantMore;
+    }while(wantMore == 'y');
+
+    cout << "Goodbye!" << endl;
+    return 0;
+}
+```
 ### 4. Write a switch-case construct that tells whether a color is in the rainbow. Use enumerated constant.
 ##
 
