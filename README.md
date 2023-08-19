@@ -14,7 +14,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [x] Chapter 8 - Pointers and Explained References 
 - [x] Chapter 9 - Class and Objects
 - [x] Chapter 10 - Implementing Inheritance 
-- [ ] Chapter 11 - Polymorphism
+- [x] Chapter 11 - Polymorphism
 - [ ] Chapter 12 - Operator Type and Operator overloading 
 - [ ] Chapter 13 - Casting Operators
 - [ ] Chapter 14 - An Introduction to Macros
