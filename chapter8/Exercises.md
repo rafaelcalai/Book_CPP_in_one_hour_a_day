@@ -40,11 +40,51 @@ int const *pNum1 = &number;
 ```
 
 ##
-### 4. 
+### 4. *BUG BUSTERS:* Whats is wrong with this code?
+```
+#include<iostream>
+using namespace std;
+
+int main ()
+{
+    int *pointToAnInt = new int;
+    pointToAnInt = 9;
+    cout << "The Value at pointToAnInt : " <<  *pointToAnInt;
+    delete pointToAnInt;
+
+    return 0;
+}
+```
+#### Answer:
+```
+It is passing a value instead of an address to the pointer pointToAnInt.
+```
+##
+### 5. *BUG BUSTERS:* What is wrong with this code?
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+    int* pointToAnInt = new int;
+    int* pNumberCopy = pointToAnInt;
+    *pNumberCopy = 30;
+    cout << *pointToAnInt;
+    delete pNumberCopy;
+    delete pointToAnInt; 
+    return 0;
+}
+```
+
+#### Answer:
+```
+The memory is being deallocating twice as pNumberCopy points to the address of allocated to pointToAnInt
+```
 
 ##
-### 5.
-
-##
-### 6. 
+### 6. What is the output of the program in Exercise 5 when that program is correct?
+#### Answer:
+```
+The output would be: 30
+```
 
