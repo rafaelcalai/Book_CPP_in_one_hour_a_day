@@ -4,7 +4,7 @@
 
 ##
 ### 2.2 The following is a **map** template definition in your dictionary application:
-´´´
+```
 map<wordProperty, string, fPredicate> mapWordDefinition;
 
 //Where WordProperty is a structure:
@@ -13,7 +13,7 @@ struct WordProperty
   string word,
   bool isLatinBase;
 };
-´´´
+````
 #### Define the binary predicate **fPredicate**, wich helps the map sort a key of type **WordProperty** according to the string attribute it contains.
 
 ##
