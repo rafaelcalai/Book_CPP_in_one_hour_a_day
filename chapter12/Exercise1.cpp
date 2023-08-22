@@ -1,7 +1,5 @@
-# Exercises
+#include <iostream>
 
-### 1. Program a conversion operator for class **Date** that converts the date it holds into an integer
-```
 class Date
 {
 private:
@@ -19,13 +17,28 @@ public:
         --day;
         return *this;
     }
+
+    explicit operator int() const
+    {
+        return (month  * 1000000) + (day * 10000) + year;
+    }
     void displayDate() const
     {
         std::cout << month << "/" << day << "/" << year << std::endl;
     }
 };
-```
 
 
-##
-### 2. Program a move constructor and move assignment operator for the class *DynamicFlats* that encapsulates a dynamically allocated array in the for of a private member *float** 
+int main() {
+    Date date( 8, 22, 2023);
+
+    ++date;
+    date.displayDate();
+
+    --date;
+    date.displayDate();
+
+    std::cout << date.operator int();
+
+    return 0;
+}
