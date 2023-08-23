@@ -16,7 +16,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [x] Chapter 10 - Implementing Inheritance 
 - [x] Chapter 11 - Polymorphism
 - [x] Chapter 12 - Operator Type and Operator overloading 
-- [ ] Chapter 13 - Casting Operators
+- [x] Chapter 13 - Casting Operators
 - [ ] Chapter 14 - An Introduction to Macros
 - [x] Chapter 15 - An Introduction to the Standard Template Library
 - [ ] Chapter 16 - The String Class
