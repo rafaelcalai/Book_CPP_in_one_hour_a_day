@@ -17,8 +17,22 @@
 #define QUARTER (x) (x / 4)
 ```
 
+#### Answer:
+```
+#define QUARTER (X) ((X) / 4)
+
+// Even better is use templates
+template <typename T>
+T Quarter(const T x)
+{
+    return x / 4;
+}
+
+
+```
+
 ##
-### 5. Write a simple template class that holds two arrays of type that are defined via the class´s template pareter list. The size of the array should be 10, and the template class should have accessor functions that allow for the manipulation of array elements.
+### 5. Write a simple template class that holds two arrays of type that are defined via the class´s template parameter list. The size of the array should be 10, and the template class should have accessor functions that allow for the manipulation of array elements.
 
 ##
 ### 6. Write a template function *Display()* that can be invoked with varying numbers and types of arguments and that displays each of them.
