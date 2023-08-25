@@ -5,7 +5,7 @@
 ```
 #include<thread>
 #include<stop_token>
-#include<iostram>
+#include<iostream>
 
 using namespace std;
 
@@ -42,5 +42,20 @@ int main()
   }
   return 0;
 }
+
+```
+
+### Answer:
+```
+The main thread will finish and the worker will still be alive:
+
+Worker thread Hello: 
+Worker thread Hello: 
+Worker thread Hello: 
+Worker thread Hello: 
+Main thread: Sending a stop request to worker
+Main thread: waiting on working to end!
+Main thread: wait has ended. Exiting now
+Worker thread: asked to end, bye
 
 ```
