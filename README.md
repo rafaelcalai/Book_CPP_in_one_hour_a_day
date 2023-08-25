@@ -33,5 +33,5 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 27 - Using Streams for Input and Output 
 - [ ] Chapter 28 - Exception Handling 
 - [ ] Chapter 29 - C++20 Concepts, Ranges, Views and Adaptors
-- [ ] Chapter 30 - C++ Threads
+- [x] Chapter 30 - C++ Threads
 - [ ] Chapter 31 - C++ 20 Modules and C++23
