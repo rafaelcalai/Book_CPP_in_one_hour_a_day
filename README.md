@@ -28,7 +28,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 22 - Lambda Expression
 - [ ] Chapter 23 - STL Algorithms 
 - [ ] Chapter 24 - Adaptive Containers: Stacks and Queues 
-- [ ] Chapter 25 - Working with Bit Flags using the STL
+- [x] Chapter 25 - Working with Bit Flags using the STL
 - [ ] Chapter 26 - Understanding Smart Pointers
 - [ ] Chapter 27 - Using Streams for Input and Output 
 - [ ] Chapter 28 - Exception Handling 
