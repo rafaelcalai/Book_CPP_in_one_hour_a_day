@@ -34,4 +34,4 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 28 - Exception Handling 
 - [ ] Chapter 29 - C++20 Concepts, Ranges, Views and Adaptors
 - [x] Chapter 30 - C++ Threads
-- [ ] Chapter 31 - C++ 20 Modules and C++23
+- [x] Chapter 31 - C++ 20 Modules and C++23
