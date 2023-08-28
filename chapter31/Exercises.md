@@ -22,3 +22,17 @@ int main()
 }
 
 ```
+
+#### Answer:
+```
+In order to be able to import AddsNums, the function has to be explicit marked with "export" as follow.
+```
+```
+// module Interface file Calculations.ixx
+export module Calculations;
+
+export int AddNums(int a, int b)
+{
+  return (a + b);
+}
+```
