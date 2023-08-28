@@ -26,4 +26,3 @@ int main()
     PrintMessage(dequeMessage);
     return 0;
 }
-

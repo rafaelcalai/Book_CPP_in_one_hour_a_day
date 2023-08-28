@@ -20,8 +20,8 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [x] Chapter 14 - An Introduction to Macros
 - [x] Chapter 15 - An Introduction to the Standard Template Library
 - [x] Chapter 16 - The String Class
-- [ ] Chapter 17 - STL Dynamic Array Classes
-- [ ] Chapter 18 - STL list and forward_list
+- [x] Chapter 17 - STL Dynamic Array Classes
+- [x] Chapter 18 - STL list and forward_list
 - [ ] Chapter 19 - STL set and multiset
 - [ ] Chapter 20 - STL map and multimap
 - [ ] Chapter 21 - Understanding Function Objects
