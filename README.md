@@ -30,7 +30,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 24 - Adaptive Containers: Stacks and Queues 
 - [x] Chapter 25 - Working with Bit Flags using the STL
 - [ ] Chapter 26 - Understanding Smart Pointers
-- [ ] Chapter 27 - Using Streams for Input and Output 
+- [x] Chapter 27 - Using Streams for Input and Output 
 - [ ] Chapter 28 - Exception Handling 
 - [ ] Chapter 29 - C++20 Concepts, Ranges, Views and Adaptors
 - [x] Chapter 30 - C++ Threads
