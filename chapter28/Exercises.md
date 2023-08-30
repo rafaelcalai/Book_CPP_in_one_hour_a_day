@@ -1,7 +1,7 @@
 # Exercises
 
 ### 1. *BUG BUSTERS:* What is wrong with the following code?
-```
+```c++
 class SomeIntelligentStuff
 {
   bool isStuffGoneBad;
@@ -25,7 +25,7 @@ throw an exception in a destructor is not considered best practises eventhough i
 
 ##
 ### 2. *BUG BUSTERS:* What is wrong with the following code?
-```
+```c++
 int main()
 {
   int* millionNums = new int[1000000];
@@ -42,7 +42,7 @@ It´s being allocated a big memory without use of try: catch:, if the memory is 
 
 ##
 ### *BUG BUSTERS:* What is wrong with the following code?
-````c++
+```c++
 int main()
 {
   try
@@ -60,6 +60,6 @@ int main()
 }
 ```
 ### Answer:
-´´´
+```
 allocation memory should not be used inside a catch of exception.
-´´´
+```
