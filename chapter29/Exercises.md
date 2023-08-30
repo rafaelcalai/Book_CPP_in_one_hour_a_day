@@ -96,4 +96,4 @@ int main()
 ```
 
 ##
-### 3. Compose a view that consist of the square of three element takens from the end of a collection.
+### 3. Compose a view that consist of the square of three element takes from the end of a collection.

@@ -8,8 +8,14 @@ object->DoSomething();
 anotherObject->DoSomething();
 ```
 
+#### Answer: 
+```
+auto_ptr is deprecated and is should not be used anymore.
+```
+
 ##
 ### 2. Use the **unique_ptr** class to instantiate a **Carp** that inherits from **Fish**. Pass the object as a **Fish** pointer and comment on slicing, if any.
+
 
 ##
 ### 3. *BUG BUSTERS:* What is the error in the following code?
@@ -17,4 +23,8 @@ anotherObject->DoSomething();
 std::unique_ptr<Tuna> myTuna(new Tuna);
 unique_ptr<Tuna> copyTuna;
 copyTuna = myTuna;
+```
+#### Answer:
+```
+Is not allowed to copy from a unique_ptr
 ```

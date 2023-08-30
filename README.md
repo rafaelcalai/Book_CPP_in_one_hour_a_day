@@ -32,6 +32,6 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 26 - Understanding Smart Pointers
 - [x] Chapter 27 - Using Streams for Input and Output 
 - [x] Chapter 28 - Exception Handling 
-- [ ] Chapter 29 - C++20 Concepts, Ranges, Views and Adaptors
+- [x] Chapter 29 - C++20 Concepts, Ranges, Views and Adaptors
 - [x] Chapter 30 - C++ Threads
 - [x] Chapter 31 - C++ 20 Modules and C++23
