@@ -25,7 +25,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 19 - STL set and multiset
 - [ ] Chapter 20 - STL map and multimap
 - [ ] Chapter 21 - Understanding Function Objects
-- [ ] Chapter 22 - Lambda Expression
+- [x] Chapter 22 - Lambda Expression
 - [ ] Chapter 23 - STL Algorithms 
 - [ ] Chapter 24 - Adaptive Containers: Stacks and Queues 
 - [x] Chapter 25 - Working with Bit Flags using the STL
