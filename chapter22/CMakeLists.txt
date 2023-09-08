@@ -9,3 +9,4 @@ project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(${EXECUTABLE1} Exercise1.cpp)
+add_executable(${EXECUTABLE2} Exercise2.cpp)
