@@ -10,7 +10,7 @@ anotherObject->DoSomething();
 
 #### Answer: 
 ```
-auto_ptr is deprecated and is should not be used anymore.
+auto_ptr is deprecated and it should not be used anymore.
 ```
 
 ##
