@@ -29,7 +29,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [ ] Chapter 23 - STL Algorithms 
 - [ ] Chapter 24 - Adaptive Containers: Stacks and Queues 
 - [x] Chapter 25 - Working with Bit Flags using the STL
-- [ ] Chapter 26 - Understanding Smart Pointers
+- [x] Chapter 26 - Understanding Smart Pointers
 - [x] Chapter 27 - Using Streams for Input and Output 
 - [x] Chapter 28 - Exception Handling 
 - [x] Chapter 29 - C++20 Concepts, Ranges, Views and Adaptors
