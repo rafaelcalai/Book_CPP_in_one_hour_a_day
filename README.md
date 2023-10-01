@@ -22,7 +22,7 @@ The repository for the exercises of the book C++ one hour a day by Siddhartha Ra
 - [x] Chapter 16 - The String Class
 - [x] Chapter 17 - STL Dynamic Array Classes
 - [x] Chapter 18 - STL list and forward_list
-- [ ] Chapter 19 - STL set and multiset
+- [x] Chapter 19 - STL set and multiset
 - [ ] Chapter 20 - STL map and multimap
 - [x] Chapter 21 - Understanding Function Objects
 - [x] Chapter 22 - Lambda Expression
